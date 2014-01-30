@@ -2,14 +2,16 @@ class people::jdigger::sublime_text_2 {
 
   include sublime_text_2
 
-  file { "${people::jdigger::home}/bin":
+  $home = "/Users/${::boxen_user}"
+
+  file { "${home}/bin":
      ensure => directory,
   }
 
   file { "${people::jdigger::home}/bin/subl":
      ensure => 'link',
      target => '/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl',
-     require => [ Package[SublimeText2], File["${people::jdigger::home}/bin"] ]
+     require => [ Package[SublimeText2], File["${home}/bin"] ]
   }
 
 

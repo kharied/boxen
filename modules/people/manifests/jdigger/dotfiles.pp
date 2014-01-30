@@ -1,7 +1,7 @@
 class people::jdigger::dotfiles {
   include git
 
-  $home     = "${people::jdigger::home}"
+  $home = "/Users/${::boxen_user}"
   $dotfiles = "${home}/.dotfiles"
 
   git::config::local { $dotfiles:

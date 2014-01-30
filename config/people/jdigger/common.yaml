@@ -1,18 +1,13 @@
 ---
 classes:
-  # core modules, needed for most things
   - dnsmasq
   - git
-  # - hub
   - zsh
-
-  # Standard applications
   - asciidoc
   - firefox
   - sourcetree
   - iterm2::stable
   - sublime_text_2
-#  - dropbox
   - cloudapp
   - chrome
   - imagemagick

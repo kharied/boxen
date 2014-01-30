@@ -1,9 +1,5 @@
 ---
-# classes:
-#   - ruby::1_8_7
-#   - ruby::1_9_3
 boxen::security::require_password: false
 people::jdigger::ruby::global_version: '2.0.0'
 people::jdigger::system_roles:
   - personal
-

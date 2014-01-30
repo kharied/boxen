@@ -5,6 +5,6 @@
   - "people/%{::github_login}/nodes/%{::hostname}"
   - "people/%{::github_login}/nodes/%{::clientcert}"
   - "people/%{::github_login}/common"
+  - "people/%{::github_login}"
   - "nodes/common"
   - "nodes/%{::clientcert}"
-:merge_behavior: deeper

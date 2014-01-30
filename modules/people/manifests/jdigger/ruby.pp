@@ -4,8 +4,6 @@ class people::jdigger::ruby(
 
   include 'ruby'
 
-  # notify { "class people::jdigger::ruby global_ruby_version = ${global_version}": }
-
   class { 'ruby::global':
     version => $global_version
   }

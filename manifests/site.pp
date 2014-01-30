@@ -52,5 +52,3 @@ Service {
 Homebrew::Formula <| |> -> Package <| |>
 
 hiera_include('classes')
-
-# import "nodes"
