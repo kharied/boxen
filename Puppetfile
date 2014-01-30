@@ -29,32 +29,43 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen", "3.3.4"
+github "boxen", "~> 3.3.6"
+# mod "boxen", :git => "https://github.com/boxen/puppet-boxen", :ref => 'master'
 
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
 
-github "dnsmasq",    "1.0.0"
-github "foreman",    "1.0.0"
-github "gcc",        "2.0.1"
-github "git",        "1.2.5"
-github "go",         "1.0.0"
-github "homebrew",   "1.5.1"
-github "hub",        "1.0.3"
-github "inifile",    "1.0.0", :repo => "puppetlabs/puppetlabs-inifile"
-github "nginx",      "1.4.2"
-github "nodejs",     "3.3.0"
-github "openssl",    "1.0.0"
-github "phantomjs",  "2.0.2"
-github "pkgconfig",  "1.0.0"
-github "repository", "2.2.0"
-github "ruby",       "6.7.2"
-github "stdlib",     "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
-github "sudo",       "1.0.0"
-github "xquartz",    "1.1.0"
+github "dnsmasq",    "~> 1.0"
+github "foreman",    "~> 1.0"
+github "gcc",        "~> 2.0"
+github "git",        "~> 1.2"
+github "go",         "~> 2.0"
+github "homebrew",   "~> 1.5"
+github "hub",        "~> 1.0"
+github "inifile",    "~> 1.0", :repo => "puppetlabs/puppetlabs-inifile"
+github "nginx",      "~> 1.4"
+github "nodejs",     "~> 3.3"
+github "openssl",    "~> 1.0.0"
+github "phantomjs",  "~> 2.0"
+github "pkgconfig",  "~> 1.0"
+github "repository", "~> 2.2"
+github "puppet-module-data", "~> 0.0", :repo => "ripienaar/puppet-module-data"
+github "ruby",       "~> 7.0"
+github "stdlib",     "~> 4.1", :repo => "puppetlabs/puppetlabs-stdlib"
+github "sudo",       "~> 1.0"
+github "xquartz",    "~> 1.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "sourcetree",     "~> 1.0"
+github "launchbar",      "~> 1.0"
+github "dropbox",        "~> 1.2"
+github "cloudapp",       "~> 1.0"
+github "zsh",            "~> 1.0"
+github "imagemagick",    "~> 1.2"
+github "skydrive",       "~> 1.0"
+github "skype",          "~> 1.0"
 
 # sources/recipes for Omega-required
 github "chrome",          "~> 1.1"
@@ -69,11 +80,10 @@ github "virtualbox",      "~> 1.0"
 github "vagrant",         "~> 3.0"
 github "p4merge",         "~> 0.0", :repo => "steinim/puppet-p4merge"
 
-# sources/recipes for bstreet-desired
+# sources/recipes desired
 github "osx",             "~> 2.2"
 github "keepassx",        "~> 1.0"
 github "adium",           "~> 1.3"
-github "dropbox",         "~> 1.2"
 github "evernote",        "~> 2.0"
 
 github "vlc",             "~> 1.0"

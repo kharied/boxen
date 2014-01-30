@@ -1,0 +1,10 @@
+---
+:yaml:
+  :datadir: "/opt/boxen/repo/config"
+:hierarchy:
+  - "people/%{::github_login}/nodes/%{::hostname}"
+  - "people/%{::github_login}/nodes/%{::clientcert}"
+  - "people/%{::github_login}/common"
+  - "nodes/common"
+  - "nodes/%{::clientcert}"
+:merge_behavior: deeper

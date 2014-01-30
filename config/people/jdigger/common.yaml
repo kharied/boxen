@@ -1,0 +1,30 @@
+---
+classes:
+  # core modules, needed for most things
+  - dnsmasq
+  - git
+  # - hub
+  - zsh
+
+  # Standard applications
+  - asciidoc
+  - firefox
+  - sourcetree
+  - iterm2::stable
+  - sublime_text_2
+#  - dropbox
+  - cloudapp
+  - chrome
+  - imagemagick
+  - skydrive
+  - vagrant
+  - virtualbox
+  - skype
+
+boxen::security::require_password: true
+boxen::security::screensaver_delay_sec: 5
+
+people::jdigger::ruby::global_version: '2.0.0'
+
+people::jdigger::system_roles:
+  - workstation

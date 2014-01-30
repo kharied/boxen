@@ -1,0 +1,8 @@
+---
+# classes:
+#   - ruby::1_8_7
+#   - ruby::1_9_3
+boxen::security::require_password: true
+people::jdigger::ruby::global_version: '1.8.7'
+people::jdigger::system_roles:
+  - work
